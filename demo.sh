@@ -8,6 +8,7 @@ clear
 pe "cat json_schema.yaml"
 
 pe "python -c \"from yaml import load, Loader; load(open('json_schema.yaml'), Loader=Loader)\""
+pe ""
 clear
 
 
