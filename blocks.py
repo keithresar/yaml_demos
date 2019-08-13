@@ -5,9 +5,9 @@ import yaml
 
 document = """
 ---
-- foo: |+
-    Line 1
-    Line 2
+- foo: |1
+         Line 1
+         Line 2
 
 """
 
